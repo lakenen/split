@@ -50,11 +50,6 @@
 	function split(elt, options) {
 		elt = $(elt);
 		options = $.extend(defaults, options || {});
-		elt.css({
-			display: elt.css('display') === 'inline-block' ? 'inline-block' : 'block',
-			width: width,
-			height: height
-		});
 		
 		var width = elt.width(),
 			height = elt.height(),
