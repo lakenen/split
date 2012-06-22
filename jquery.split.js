@@ -206,12 +206,6 @@
 		return splits;
 	}
 	
-	function clamp(c, a, b) {
-		return (c < a ? a : c > b ? b : c);
-	}
-	
-	
-	
 	$.fn.split = function (options) {
 		return this.each(function () {
 			var splitter = $(this).data('splitter');
