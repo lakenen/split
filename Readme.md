@@ -2,7 +2,9 @@
 
 Split is a jQuery plugin that splits open a page with a nice animation to reveal content underneath!
 
-*ONLY WORKS IN FIREFOX*
+*ONLY WORKS IN FIREFOX 4.x+*
+
+Split uses CSS4's [element](https://developer.mozilla.org/en-US/docs/CSS/element) function to display an element in two places.
 
 [Demo](http://lakenen.com/split)
 
@@ -35,7 +37,7 @@ $('#example').split();
 * Only works in Firefox (4.0+)
 * Probably broken in so many ways
 
-## License 
+## License
 
 (The MIT License)
 
